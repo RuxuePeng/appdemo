@@ -15,6 +15,7 @@ hello <- function(myname = ""){
                     from = "iTunes")
   pool = as.character(paste(pool$Name,collapse = "//  "))
   list(
-    message = paste("hello", myname, "! This is the popular shows on iTunes: ", pool)
+    message = paste("hello", myname, "! This is the popular shows on iTunes: ", pool),
+    other = 1
   )
 }
